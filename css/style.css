@@ -1,0 +1,138 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo-icon{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://disdikbud.banyuasinkab.go.id/wp-content/uploads/sites/269/2022/11/Logo-Tut-Wuri-Handayani-PNG-Warna.png);
+    background-size:contain;
+    border-radius: 50%;
+}
+
+.nav-item{
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.banner-img{
+
+    height: 300px;
+    background-image: url(https://images-cdn.ubuy.co.id/65ef9e001b55cb549f048236-baocicco-5x3ft-back-to-school-theme.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-item{
+    height: 100px;
+    text-align: -webkit-center;
+}
+
+.profile-img1{
+    height: 50px;
+    background-image: url(https://i.pinimg.com/474x/95/17/13/95171356ed776a9bdc3bd0485b61674b.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.profile-img2{
+    height: 50px;
+    background-image: url(https://rsuarun.com/wp-content/uploads/2018/08/visi-misi.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.profile-img3{
+    height: 50px;
+    background-image: url(https://e7.pngegg.com/pngimages/680/617/png-clipart-youtube-computer-icons-organization-psd-hierarchy-organizational-structure-artwork.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.profile-img4{
+    height: 50px;
+    background-image: url(https://png.pngtree.com/png-clipart/20200226/original/pngtree-bowing-achievement-award-vector-sport-png-image_5316684.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    text-align: right;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.results {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+.bg-body{
+    background-color: #d3f4ff;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}

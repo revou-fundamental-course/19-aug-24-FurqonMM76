@@ -3,11 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    link
+    <title>Sekolahku</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    
+<body class="bg-body">
+    <nav>
+        <header>
+            <div class="logo-icon"></div>
+        </header>
+        <section>
+            <a href="#" class="nav-item">Beranda</a>
+            <a href="#profil-kami" class="nav-item">Profil Kami</a>
+            <a href="#hubungi-kami" class="nav-item">Hubungi Kami</a>
+        </section>
+    </nav>
+
+    <hr>
+
+    <main>
+        <article>
+            <header>
+                <h1 id="pesan-welcome">Selamat Datang, di website kami</h1>
+            </header>
+
+            <p>Website Sekolahku</p>
+            <div class="banner-img"></div>
+        </article>
+
+        <hr>
+
+        <section id="profil-kami">
+            <header>
+                <h1>Profil Kami</h1>
+            </header>
+            <section class="profile-container">
+                <a href="sejarah.html" class="profile-item">
+                    <div class="profile-img1"></div>
+                    <h2>Sejarah</h2>
+                </a>
+
+                <a href="visimisi.html" class="profile-item">
+                    <div class="profile-img2"></div>
+                    <h2>Visi & Misi</h2>
+                </a>
+
+                <a href="struktur.html" class="profile-item">
+                    <div class="profile-img3"></div>
+                    <h2>Struktur Organisasi</h2>
+                </a>
+
+                <a href="prestasi.html" class="profile-item">
+                    <div class="profile-img4"></div>
+                    <h2>Prestasi</h2>
+                </a>
+            </section>
+        </section>
+
+        <hr>
+
+        <section id="hubungi-kami">
+            <header>
+                <h1>Hubungi Kami</h1>
+            </header>
+            <form id="contactForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="dob">Tanggal Lahir:</label>
+                <input type="date" id="dob" name="dob" required>
+        
+                <label>Jenis Kelamin:</label>
+                <input type="radio" id="male" name="gender" value="Laki-Laki" required>
+                <label for="male" style="display: inline;">Laki-Laki</label>
+                <input type="radio" id="female" name="gender" value="Perempuan" required>
+                <label for="female" style="display: inline;">Perempuan</label>
+        
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+        
+                <button type="button" onclick="submitForm()">Kirim</button>
+            </form>
+            
+            <div id="results" class="results"></div>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer class="footer">
+        <P>Dibuat oleh Furqon Muhammad Muflih</P>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
-</html> 
+</html>
